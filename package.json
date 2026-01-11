@@ -1,0 +1,16 @@
+{
+  "name": "flight-booking-system",
+  "version": "1.0.0",
+  "description": "Full-stack flight booking application with dynamic pricing",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev",
+    "dev-backend": "cd backend && npm run dev",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["flight", "booking", "react", "nodejs", "mongodb"],
+  "author": "XTechon Developer",
+  "license": "MIT"
+}
